@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Page</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</head>
+<body>
+    <main>
+        <div class="termos">
+            <div class="close">x</div>
+            <a1><center>TERMOS DE USO</center></a1>
+            <b>Sign Up</b><br>
+ 
+
+            Design Hint...<br>
+
+            Create a sign up page, modal, form, or app screen related to signing up for something. It could be for a volunteer event, contest registration, a giveaway, or anything you can image.
+<br>
+            Share your design on Dribbble or Twitter with #DailyUI
+
+            
+
+        </div>
+    <div class="content">
+        
+        <a1><p>Cadastre-se para ter acesso ao nosso conteúdo!</p></a1>
+        
+    <form action="https://codepen.io/analugmrs/pen/BajObbq" method="post" id="forms" name="forms">
+        
+    <input type="text" name="nome" id="nome" placeholder ="Seu nome" required><br>
+    
+    <input type="email" name="e-mail" id="email" placeholder="Seu e-mail" required><br>
+ 
+    <input type="password" name="pass" id="pass" placeholder="Nova senha" required>
+    <p class="error" id="error_pass">* Sua senha deve ter no mínimo 6 caracteres.</p>
+    <input type="password" name="pass_rep" id="pass_rep" placeholder="Confirme sua senha" required>
+    <p class="error" id="error_pass_rep">* AS SENHAS NÃO SÃO IGUAIS.</p>   
+    <input type="checkbox" value="sim" id="sim" required>
+        <a2>Eu li e aceito os <a id="termos"><u>termos de uso</u></a>.</a2><br><br>
+    <input type="submit" value="Concluir meu cadastro" id="enviar" name="enviar" onclick="return validar()"><br><br>
+        
+        <small><center>2020 &copy; Todos os direitos reservados -  <b>dailyUI by Analu</b></center></small>
+        </form>
+    </div>
+
+    
+    
+    
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
